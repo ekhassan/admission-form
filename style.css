@@ -1,0 +1,201 @@
+body {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.Logo {
+    width: 90px;
+    margin-left: -14%;
+    height: 90px;
+}
+
+.main .logo {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.main .logo h3 {
+    display: flex;
+
+    text-align: left;
+
+    margin-top: 10%;
+    margin-left: 10px;
+}
+
+.ad_form {
+    margin-top: -3%;
+    margin-left: 8%;
+    text-align: center;
+}
+
+/* General */
+
+fieldset {
+    margin-top: 60px;
+    margin-right: 28px;
+    margin-bottom: 30px;
+}
+
+legend {
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 600;
+}
+
+input {
+
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 2px solid #d9d9d9;
+    border-radius: 8px;
+    padding: 8px;
+    width: 40%
+}
+
+select {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 2px solid #d9d9d9;
+    border-radius: 8px;
+    padding: 8px;
+}
+
+label {
+    margin: 5px;
+    font-weight: 500;
+}
+
+/* Personal Info */
+.per_main {
+    margin-top: 50px;
+    border: 1px solid rgb(48, 48, 48);
+}
+
+.personal_details {
+
+
+    background: #3ea2ff;
+    color: aliceblue;
+
+}
+
+.per_form {
+    margin-left: 25px;
+}
+
+.personal_details h3 {
+
+    padding: 10px;
+    margin: 0px;
+}
+
+/* Address Detail */
+.add_main {
+    margin-top: 50px;
+    border: 1px solid rgb(48, 48, 48);
+}
+
+.add_form {
+    margin-left: 25px;
+}
+
+.add_details {
+
+    background: #3ea2ff;
+    color: aliceblue;
+}
+
+.add_details h3 {
+    padding: 10px;
+    margin: 0px;
+}
+
+/* Educational Deatials */
+
+.edu_main {
+    margin-top: 50px;
+    border: 1px solid rgb(48, 48, 48);
+}
+
+.edu_details {
+    background: #3ea2ff;
+    color: aliceblue;
+}
+
+.edu_details h3 {
+    padding: 10px;
+    margin: 0px;
+}
+
+.edu_form {
+    margin-left: 25px;
+}
+
+
+/*Program Choices */
+
+.pro_main {
+    margin-top: 50px;
+    border: 1px solid rgb(48, 48, 48);
+}
+
+.pro_choice {
+    background: #3ea2ff;
+    color: aliceblue;
+}
+
+.pro_form {
+    margin-left: 25px;
+}
+
+.pro_form form select {
+    margin-left: 95px;
+}
+
+.pro_choice h3 {
+    padding: 10px;
+    margin: 0px;
+}
+
+/* Confrim Statment */
+
+.confrim input {
+    display: flex;
+    margin-left: 0px;
+}
+
+.confrim label {
+    display: flex;
+    margin-left: 10px;
+}
+
+
+/* Button */
+
+.button_sec {
+    display: flex;
+    justify-content: right;
+}
+
+.Button {
+    justify-items: right;
+    border: none;
+    border-radius: 100px;
+    padding: 10px;
+    font-size: larger;
+    font-weight: bolder;
+    width: 20%;
+    background: #3ea2ff;
+    color: aliceblue;
+    transition: 300ms all ease-in-out;
+}
+
+.Button:hover {
+    background: #0067c7;
+    transform: scale(1.05);
+}
